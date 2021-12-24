@@ -1,0 +1,12 @@
+{
+    "name": "SOT Better Rep",
+    "version": "1.01",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://www.seaofthieves.com/profile/reputation", "https://www.seaofthieves.com/*/profile/reputation"],
+            "js": ["parser.js"]
+        }
+    ],
+    "host_permissions": ["<all_urls>"]
+}
